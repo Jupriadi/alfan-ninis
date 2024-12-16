@@ -1,3 +1,28 @@
+<script setup>
+definePageMeta({
+  title: "Pernikahan Agus & Uliana",
+  meta: [
+    {
+      name: "description",
+      content:
+        "pernikahan Agus & Uliana pada 22 Desember 2024.",
+    },
+    { property: "og:title", content: "Pernikahan Agus & Uliana" },
+    {
+      property: "og:description",
+      content:
+        "pernikahan Agus & Uliana pada 22 Desember 2024.",
+    },
+    { property: "og:image", content: "https://agusuliana.vercel.app/img/2.jpg" }, // Gambar akan diakses di https://yourdomain.com/img/couple.jpg
+    { property: "og:url", content: "https://agusuliana.vercel.app" },
+    { property: "og:type", content: "website" },
+    { property: "og:site_name", content: "Pernikahan Agus & Uliana" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@yourTwitterHandle" },
+  ],
+});
+</script>
+
 <script>
 export default {
   data() {

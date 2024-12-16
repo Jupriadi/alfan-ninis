@@ -46,7 +46,7 @@ export default {
             <div
               class="font-kugile h-[80px]  rounded p-3 flex-col"
             >
-              <div class="font-bold text-3xl">10:00</div>
+              <div class="font-bold text-3xl">10:30</div>
               <div class="font-bold">Wita</div>
             </div>
             <div class="text-center">

@@ -15,7 +15,7 @@
         avatar="/img/bride.jpg"
         name="Uliana"
         status="Putri Dari"
-        parrent="Bpk. Mansur & Ibu Mastiah"
+        parrent="Bpk. Mansur (Almarhum) & Ibu Mastiah"
       />
     </div>
   </div>
