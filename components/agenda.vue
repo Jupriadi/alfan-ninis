@@ -6,7 +6,7 @@
       </div>
       <div class="mt-8">
         <div class="px-8 text-center mb-5 fong-bold text-gray-100">
-          <div>
+          <div data-aos="fade-down" data-aos-duration="1000">
             Merupakan kebahagian bagi kami jika anda berkenan hadir dan mendoakan pada hari bahagia kami.
           </div>
         </div>

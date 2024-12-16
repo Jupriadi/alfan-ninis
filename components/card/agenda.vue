@@ -25,12 +25,12 @@ export default {
 <template>
   <div class="bg-white border mx-8 rounded-xl border-rose-800">
     <div class="p-6">
-      <div class="text-center font-rustic text-2xl text-rose-800 font-bold">
+      <div class="text-center font-rustic text-2xl text-rose-800 font-bold" data-aos="fade-up" data-duration="800">
         Resepsi Pernikahan
       </div>
 
       <div class="grid grid-cols-2 mt-8">
-        <div class="text-center font-kugile">
+        <div class="text-center font-kugile" data-aos="fade-left" data-aos-duration="1500">
           <div class="font-black">Ahad</div>
           <div class="font-black text-6xl w-full flex justify-center">
             <div class=" h-[80px] rounded p-3">22</div>
@@ -38,7 +38,7 @@ export default {
           <div class="mt-2 font-bold">Desember</div>
           <div class="font-bold ms-2 -mt-2 tracking-[10pt]">2024</div>
         </div>
-        <div class="text-center border-s border-gray-500">
+        <div class="text-center border-s border-gray-500" data-aos="fade-right" data-aos-duration="1500">
           <div class="Waktu">
             <div class="text-center font-bold font-kugile">
               <span class="i-ri-time-line"></span> Waktu
@@ -56,7 +56,7 @@ export default {
           </div>
         </div>
       </div>
-      <div>
+      <div data-aos="zoom-in" data-aos-duration="2000">
         <CardCountdown />
       </div>
       <div>

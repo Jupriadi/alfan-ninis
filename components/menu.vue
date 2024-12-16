@@ -25,6 +25,11 @@ export default {
                     icon:'i-ri-map-pin-line',
                 },
                 {
+                    label:'Gallery',
+                    key:'gallery',
+                    icon:'i-ri-image-ai-fill',
+                },
+                {
                     label:'Ucapan',
                     key:'ucapan',
                     icon:'i-ri-chat-heart-line',

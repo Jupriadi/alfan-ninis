@@ -1,8 +1,16 @@
+<script>
+export default {
+    props:{
+        name:String,
+        message:String
+    }
+}
+</script>
 <template>
-    <div class="text-start mb-3 border p-4 bg-white rounded">
-        <div class="font-kugile font-bold mb-2">Nama Pengucap</div>
-        <div class="text-gray-800 text-xs">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit corrupti qui quibusdam officia dolore possimus ipsum incidunt modi quam! Mollitia tempora nemo perspiciatis molestiae nesciunt sequi similique sapiente quis ad!
+    <div class="text-start mb-1 border p-4 bg-white rounded">
+        <div class=" text-gray-700 font-bold mb-1 text-sm">{{ name }}</div>
+        <div class="text-gray-600 text-xs">
+            {{ message }}
         </div>
     </div>
 </template>

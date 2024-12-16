@@ -13,11 +13,11 @@
             A <span class="i-ri-hearts-fill text-2xl"></span> U
           </div>
         </div>
-        <div class="mb-4 text-white">The Wedding Of:</div>
-        <div class="text-7xl font-luci text-white">
+        <div class="mb-4 text-white" data-aos="fade-down">The Wedding Of:</div>
+        <div class="text-7xl font-luci text-white" data-aos="fade-up">
           Agus <span class="text-4xl font-angelos">&</span> Uliana
         </div>
-        <div class="font-kugile mt-4 text-rose-300">
+        <div class="font-kugile mt-4 text-rose-300 fong-bold text-lg" data-aos="zoom-in">
           Minggu . 22 Desember 2024
         </div>
 
@@ -27,7 +27,7 @@
           <div
             class="w-full mb-32 flex justify-center items-center   gap-4"
           >
-            <button @click="$emit('open')" class="bg-white btn-open px-4 py-2 rounded text-gray-500">Buka Undangan</button>
+            <button @click="$emit('open')" class="bg-white btn-open px-4 py-2 rounded text-gray-500"><span class="i-ri-mail-open-line"></span> Buka Undangan</button>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ export default {
 <template>
   <div class="py-32">
     <div class="text-center font-kugile font-bold text-2xl">Lokasi Acara</div>
-    <div class="mt-8 text-center">
+    <div class="mt-8 text-center" data-aos="zoom-out" data-aos-duration="2000">
       <div class="font-bold">Rumah Mempelai Pria</div>
       <div class="">Dusun Teliah, Desa Sakra Selatan, Kec. Sakra</div>
       <div class="font-kugile font-bold text-lg">Lombok Timur</div>

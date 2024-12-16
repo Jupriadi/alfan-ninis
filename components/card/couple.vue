@@ -11,14 +11,16 @@ export default {
 <template>
   <div class="">
     <div class="flex justify-center">
+
       <div
+      data-aos="fade-up" data-aos-duration="2000"
         class="w-[170px] aspect-[1/1] border border-rose-800 border-4 shadow-lg rounded-full overflow-hidden"
       >
-        <img src="~/public/img/couple.jpg" :alt="avatar" srcset="" />
+        <img v-bind:src="avatar" :alt="name" srcset="" />
       </div>
     </div>
-    <div class="text-center">
-      <div class="text-rose-800 font-rustic mt-3 font-bold text-xl">
+    <div class="text-center" data-aos="fade-left" data-aos-duration="1000">
+      <div  class="text-rose-800 font-rustic mt-3 font-bold text-xl">
         {{ name }}
       </div>
       <div class="font-kugile">{{ status }} :</div>

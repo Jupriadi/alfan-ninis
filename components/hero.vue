@@ -30,16 +30,16 @@ export default {
           <div>
             <span class="i-ri-hearts-fill text-gray-100 text-xl"></span>
           </div>
-          <div class="text-orange-400">The Wedding Of :</div>
-          <div class="text-7xl font-luci text-white">
+          <div class="text-orange-400" data-aos-duration="800" data-aos="fade-up">The Wedding Of :</div>
+          <div class="text-7xl font-luci text-white" data-aos-duration="1500" data-aos="fade-down">
             Agus <span class="text-4xl font-angelos">&</span> Uliana
           </div>
         </div>
       </div>
       <div class="absolute bottom-0 mb-40" v-if="guest">
-        <div class="text-center hero-text">
-          <div class="text-orange-600">Kepada</div>
-          <div class="font-kugile text-white">
+        <div class="text-center hero-text"  data-aos-duration="1000" data-aos="fade-down">
+          <div class="text-orange-200 fong-bold">Kepada :</div>
+          <div class="font-kugile text-xl text-white">
             {{ guest }}
           </div>
         </div>
