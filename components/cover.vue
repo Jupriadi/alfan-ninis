@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen bg-cover bg-[url('~/public/img/cover_bg.jpg')]">
+  <div class="w-full h-screen bg-cover bg-[url('~/public/img/cover_bg.jpg')] ">
     <div
       class="h-full relative w-full bg-black bg-opacity-50 flex justify-center items-center text-center"
     >
@@ -14,7 +14,7 @@
           </div>
         </div>
         <div class="mb-4 text-white" data-aos="fade-down">The Wedding Of:</div>
-        <div class="text-7xl font-luci text-white" data-aos="fade-up">
+        <div class="text-7xl font-hugh text-white" data-aos="fade-up">
           Agus <span class="text-4xl font-angelos">&</span> Uliana
         </div>
         <div class="font-kugile mt-4 text-rose-300 fong-bold text-lg" data-aos="zoom-in">
