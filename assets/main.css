@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Luci;
+    src: url('fonts/lucy-said-ok-personal-use/Lucy Said Ok Personal Use.ttf');
+  }
+@font-face {
+    font-family: Kugile;
+    src: url('fonts/kugile/Kugile_Demo.ttf');
+  }
+@font-face {
+    font-family: Angelos;
+    src: url('fonts/angelos-personal-use/Angelos.ttf');
+  }
+@font-face {
+    font-family: Rustic;
+    src: url('fonts/rustic-roadway-personal-use/RusticRoadway.otf');
+  }
+
+  .font-kugile{
+    font-family:"Kugile"
+  }
+  .font-angelos{
+    font-family:"Angelos"
+  }
+  .font-luci {
+    font-family: "Luci";
+  }
+  .font-rustic {
+    font-family: "rustic";
+  }
