@@ -1,5 +1,8 @@
 <script setup>
-definePageMeta({
+import { useHead } from '#imports'
+
+
+useHead({
   title: "Pernikahan Agus & Uliana",
   meta: [
     {
