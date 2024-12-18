@@ -98,6 +98,7 @@ export default {
           <Gallery id="gallery" />
           <Ucapan id="ucapan" />
           <Footer />
+          <Music src="/backsong.mp3" />
           <Menu @selected="handleMenu" :active="activeMenu" class="z-50" />
         </div>
       </Transition>
