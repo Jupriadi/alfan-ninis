@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-full bg-gray-200">
+  <div class="min-h-screen w-full bg-gray-200">
     <div class="w-full ">
       <div class="text-center font-kugile pt-8 font-bold mb-8" >Mempelai</div>
       <CardCouple

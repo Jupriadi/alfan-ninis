@@ -53,7 +53,7 @@ export default {
 </script>
 
 <template>
-  <div class="grid lg:grid-cols-4">
+  <div class="grid lg:grid-cols-4 w-full">
     <div
       class="lg:col-span-3 w-full h-screen bg-cover bg-[url('~/public/img/2.jpg')] hi hidden lg:block"
     >
@@ -85,20 +85,20 @@ export default {
         </div>
       </div>
     </div>
-    <div class="lg:h-screen lg:overflow-scroll">
-      <Transition name="fade" mode="out-in">
+    <div class="lg:h-screen lg:overflow-y-scroll w-full">
+      <Transition class="w-full" name="fade" mode="out-in">
         <div v-if="!open" key="cover">
           <Cover @open="openInvitation" />
         </div>
-        <div v-else key="hero" class="w-full h-full relative">
+        <div v-else key="hero" class="w-full h-full relative overflow-hidden">
           <Hero id="beranda" />
           <Couple id="pasangan" />
           <Agenda id="agenda" />
           <Lokasi id="lokasi" />
           <Gallery id="gallery" />
           <Ucapan id="ucapan" />
-          <Footer />
           <Music src="/backsong.mp3" />
+          <Footer />
           <Menu @selected="handleMenu" :active="activeMenu" class="z-50" />
         </div>
       </Transition>
