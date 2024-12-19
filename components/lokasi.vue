@@ -1,17 +1,17 @@
+
 <script>
 export default {
+  name: "GoogleMapDirections",
+  data() {
+    return {
+      latitude: -6.2, // Ganti dengan koordinat tujuan
+      longitude: 106.816666,
+    };
+  },
   methods: {
-    openMap() {
-      // Koordinat lokasi
-      const latitude = -8.69604194420651;
-      const longitude = 116.49579403072832;
-
-      // URL Google Maps dengan koordinat
-      const googleMapsUrl = `https://www.google.com/maps/place//@-8.6959013,116.494421,18.7z/data=!4m6!1m5!3m4!2zOMKwNDEnNDUuOSJTIDExNsKwMjknNDQuOSJF!8m2!3d-8.6960847!4d116.4958161?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D`;
-
-      // Redirect ke URL Google Maps
-      window.open(googleMapsUrl, "_blank"); // Membuka di tab baru
-      // Jika ingin di tab yang sama, gunakan: window.location.href = googleMapsUrl;
+    openGoogleMap() {
+      const mapLink = `https://www.google.com/maps/dir/?api=1&destination=${this.latitude},${this.longitude}`;
+      window.open(mapLink, "_blank");
     },
   },
 };
@@ -24,13 +24,21 @@ export default {
       <div class="">Dusun Teliah, Desa Sakra Selatan, Kec. Sakra</div>
       <div class="font-kugile font-bold text-lg">Lombok Timur</div>
       <div class="flex justify-center mt-6">
-        
-          <button
-            @click="openMap"
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3317.439964868734!2d116.49351317501491!3d-8.69597599135268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNDEnNDUuNSJTIDExNsKwMjknNDUuOSJF!5e1!3m2!1sen!2sid!4v1734609557688!5m2!1sen!2sid"
+          class="w-full mx-4 rounded-lg"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- <button
+            @click="openGoogleMap"
             class="bg-rose-800 hover:bg-rose-700 text-white px-4 py-2 rounded"
           >
             <span class="i-ri-map-pin-line"></span> Buka Map
-          </button>
+          </button> -->
       </div>
     </div>
   </div>
