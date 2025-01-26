@@ -3,12 +3,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAllZrTw43mPC9OgqRB541ZDDXTbaxIBp4",
-    authDomain: "wedding-b30c2.firebaseapp.com",
-    projectId: "wedding-b30c2",
-    storageBucket: "wedding-b30c2.firebasestorage.app",
-    messagingSenderId: "153711269995",
-    appId: "1:153711269995:web:18fba261b9106f8238f92e"
+    apiKey: "AIzaSyBmWEGhAugdMfW-yH1mI-gwwFYh5zzVL0g",
+    authDomain: "weding-alfan.firebaseapp.com",
+    projectId: "weding-alfan",
+    storageBucket: "weding-alfan.firebasestorage.app",
+    messagingSenderId: "568508756403",
+    appId: "1:568508756403:web:4ee2d1d30151aa40795bc6"
 };
 
 

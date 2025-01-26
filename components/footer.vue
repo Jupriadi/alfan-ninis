@@ -4,7 +4,7 @@
       <div class="font-kugile text-rose-100 font-bold">Kami Yang Berbahagia</div>
       <div>
         <div class="text-4xl font-luci text-white mt-8">
-          Agus <span class="text-xl font-angelos">&</span> Uliana
+          Alfan <span class="text-xl font-angelos">&</span> Ninis
         </div>
       </div>
     </div>

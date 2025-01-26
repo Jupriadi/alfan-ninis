@@ -14,17 +14,17 @@ export default {
 
       <div
       data-aos="fade-up" data-aos-duration="2000"
-        class="w-[170px] aspect-[1/1] border border-rose-800 border-4 shadow-lg rounded-full overflow-hidden"
+        class="w-[190px] aspect-[5/6] border border-rose-800 border-4 shadow-lg rounded-t-full overflow-hidden"
       >
         <img v-bind:src="avatar" :alt="name" srcset="" />
       </div>
     </div>
     <div class="text-center" data-aos="fade-left" data-aos-duration="1000">
-      <div  class="text-rose-800 font-rustic mt-3 font-bold text-xl">
+      <div  class="text-rose-800 font-kugile mt-3 font-bold text-xl">
         {{ name }}
       </div>
       <div class="font-kugile">{{ status }} :</div>
-      <div class="text-gray-700">{{ parrent }}</div>
+      <div class="text-gray-700 font-bold">{{ parrent }}</div>
     </div>
 
   </div>

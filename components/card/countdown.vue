@@ -8,7 +8,7 @@ export default {
         minutes: 0,
         seconds: 0,
       },
-      targetDate: new Date("2024-12-22T10:00:00"), // Tanggal acara
+      targetDate: new Date("2025-02-02T10:00:00"), // Tanggal acara
       timer: null,
     };
   },

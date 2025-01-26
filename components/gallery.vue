@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery-container px-8">
+  <div class="gallery-container px-6">
     <!-- Gambar besar dengan animasi -->
     <div class="font-kugile pt-6 pb-4 text-xl text-center font-bold">
       Gallery

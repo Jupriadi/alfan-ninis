@@ -1,5 +1,8 @@
 <script>
 import db from "~/plugins/firebase";
+import { formatDistanceToNow } from "date-fns";
+import { id } from "date-fns/locale";
+
 import {
   collection,
   addDoc,
@@ -54,6 +57,10 @@ export default {
         }));
       });
     },
+    formatRelativeTime(stamp) {
+      const date = stamp.toDate(); // Konversi ke Date
+      return formatDistanceToNow(date, { addSuffix: true, locale: id });
+    },
   },
   mounted() {
     this.fetchUcapan();
@@ -104,18 +111,15 @@ export default {
       </div>
 
       <!-- Daftar Ucapan -->
-      <div
-        class="h-[400px] overflow-scroll  mx-4 rounded mt-4 p-3 bg-white"
-      >
-      <div class="text-center font-bold font-kugile">List Ucapan</div>
-        <div class="list-ucapan " v-if="ucapanList.length > 0">
-          <div
-            v-for="ucapan in ucapanList"
-            :key="ucapan.id"
-            
-          >
-            <CardGreating :name="ucapan.name" :message="ucapan.message" />
-            
+      <div class="h-[400px] overflow-scroll mx-4 rounded mt-4 p-3 bg-rose-800">
+        <div class="text-center font-bold font-kugile mt-2 text-white">List Ucapan</div>
+        <div class="list-ucapan" v-if="ucapanList.length > 0">
+          <div v-for="ucapan in ucapanList" :key="ucapan.id">
+            <CardGreating
+              :name="ucapan.name"
+              :message="ucapan.message"
+              :time="formatRelativeTime(ucapan.timestamp)"
+            />
           </div>
         </div>
       </div>

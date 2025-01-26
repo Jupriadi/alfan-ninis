@@ -3,23 +3,23 @@ import { useHead } from '#imports'
 
 
 useHead({
-  title: "Pernikahan Agus & Uliana",
+  title: "Pernikahan Alfan & Ninis",
   meta: [
     {
       name: "description",
       content:
-        "pernikahan Agus & Uliana pada 22 Desember 2024.",
+        "pernikahan Alfan & Ninis pada 02 Februari 2025.",
     },
-    { property: "og:title", content: "Pernikahan Agus & Uliana" },
+    { property: "og:title", content: "Pernikahan Alfan & Ninis" },
     {
       property: "og:description",
       content:
-        "pernikahan Agus & Uliana pada 22 Desember 2024.",
+        "pernikahan Alfan & Ninis pada 02 Februari 2024.",
     },
-    { property: "og:image", content: "https://agusuliana.vercel.app/img/2.jpg" }, // Gambar akan diakses di https://yourdomain.com/img/couple.jpg
-    { property: "og:url", content: "https://agusuliana.vercel.app" },
+    { property: "og:image", content: "https://alfan-ninis.vercel.app/img/2.jpg" }, // Gambar akan diakses di https://yourdomain.com/img/couple.jpg
+    { property: "og:url", content: "https://alfan-ninis.vercel.app" },
     { property: "og:type", content: "website" },
-    { property: "og:site_name", content: "Pernikahan Agus & Uliana" },
+    { property: "og:site_name", content: "Pernikahan Alfan & Ninis" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:site", content: "@yourTwitterHandle" },
   ],
@@ -67,20 +67,20 @@ export default {
             <div
               class="w-full mt-32 flex justify-center items-center font-luci text-3xl gap-4"
             >
-              A <span class="i-ri-hearts-fill text-2xl"></span> U
+              A <span class="i-ri-hearts-fill text-2xl"></span> N
             </div>
           </div>
           <div class="mb-4 text-white" data-aos="fade-down">
             The Wedding Of:
           </div>
           <div class="text-7xl font-luci text-white" data-aos="fade-up">
-            Agus <span class="text-4xl font-angelos">&</span> Uliana
+            Alfan <span class="text-4xl font-angelos">&</span> Ninis
           </div>
           <div
             class="font-kugile mt-4 text-rose-300 fong-bold text-lg"
             data-aos="zoom-in"
           >
-            Minggu . 22 Desember 2024
+            Mingu . 02 Januari 2025
           </div>
         </div>
       </div>
@@ -92,6 +92,7 @@ export default {
         </div>
         <div v-else key="hero" class="w-full h-full relative overflow-hidden">
           <Hero id="beranda" />
+          <Hadits id="hadits" />
           <Couple id="pasangan" />
           <Agenda id="agenda" />
           <Lokasi id="lokasi" />
