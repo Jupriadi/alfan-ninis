@@ -8,13 +8,13 @@ useHead({
     {
       name: "description",
       content:
-        "pernikahan Alfan & Ninis pada 02 Februari 2025.",
+        "pernikahan Alfan & Ninis, 02 Februari 2025.",
     },
     { property: "og:title", content: "Pernikahan Alfan & Ninis" },
     {
       property: "og:description",
       content:
-        "pernikahan Alfan & Ninis pada 02 Februari 2024.",
+        "pernikahan Alfan & Ninis, 02 Februari 2025.",
     },
     { property: "og:image", content: "https://alfan-ninis.vercel.app/img/2.jpg" }, // Gambar akan diakses di https://yourdomain.com/img/couple.jpg
     { property: "og:url", content: "https://alfan-ninis.vercel.app" },
