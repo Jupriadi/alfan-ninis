@@ -14,7 +14,7 @@
       <CardCouple
         avatar="/img/bride.jpg"
         name="Ninis Khaerunnisa, S.Kom"
-        status="Putri Pertama Dari"
+        status="Putri Kedua Dari"
         parrent="Ihsan Amiri, QH,S.Ag & Hanimah, QH, S.Pd.I"
       />
     </div>
