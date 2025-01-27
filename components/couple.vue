@@ -6,7 +6,7 @@
         avatar="/img/groom.jpg"
         name="M. Alfan Habib, S.Kom., M.Cs.M"
         status="Putra Pertama Dari"
-        parrent="M. Salehuddin, S.Pd & Fathul Jannah"
+        parrent="Bapak M. Salehuddin, S.Pd & Ibu Fathul Jannah"
       />
       <div class="text-center my-8 text-4xl font-angelos text-rose-900" data-aos="zoom-in">
         &
@@ -15,7 +15,7 @@
         avatar="/img/bride.jpg"
         name="Ninis Khaerunnisa, S.Kom"
         status="Putri Kedua Dari"
-        parrent="Ihsan Amiri, QH,S.Ag & Hanimah, QH, S.Pd.I"
+        parrent="Bapak Ihsan Amiri, QH,S.Ag & Ibu Hanimah, QH, S.Pd.I"
       />
     </div>
   </div>
