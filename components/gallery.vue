@@ -16,22 +16,24 @@
     </div>
 
     <!-- Thumbnails -->
-    <div class="thumbnails mt-4 flex space-x-2 overflow-x-auto">
-      <div
-        v-for="(image, index) in images"
-        :key="index"
-        @click="changeImage(image)"
-        :class="{
-          'thumbnail cursor-pointer w-20 h-20 border border-2 border-orange-600 rounded-xl shadow-xl':
-            selectedImage.src === image.src,
-          'thumbnail cursor-pointer w-20 h-20': selectedImage.src !== image.src,
-        }"
-      >
-        <img
-          :src="image.src"
-          :alt="image.alt"
-          class="w-full h-full object-cover rounded-lg"
-        />
+    <div class="w-full overflow-scroll">
+      <div class="thumbnails mt-4 flex space-x-2 overflow-scroll">
+        <div
+          v-for="(image, index) in images"
+          :key="index"
+          @click="changeImage(image)"
+          :class="{
+            'thumbnail cursor-pointer w-20 h-20 border border-2 border-orange-600 rounded-xl shadow-xl':
+              selectedImage.src === image.src,
+            'thumbnail cursor-pointer w-20 h-20': selectedImage.src !== image.src,
+          }"
+        >
+          <img
+            :src="image.src"
+            :alt="image.alt"
+            class="w-full h-full object-cover rounded-lg"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -41,10 +43,10 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
 const images = [
-  { src: "/img/cover_bg.jpg", alt: "Image 1" },
+  // { src: "/img/cover_bg.jpg", alt: "Image 1" },
   { src: "/img/hero_bg.jpg", alt: "Image 2" },
   { src: "/img/1.jpg", alt: "Image 3" },
-//   { src: "/img/2.jpg", alt: "Image 4" },
+  { src: "/img/2.jpg", alt: "Image 4" },
   { src: "/img/3.jpg", alt: "Image 5" },
 ];
 

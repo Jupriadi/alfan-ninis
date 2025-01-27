@@ -71,7 +71,7 @@ export default {
             </div>
             <div class="text-center">
               <div class="mt-2 font-bold font-kugile">Sampai</div>
-              <div class="font-bold -mt-2">SELESAI</div>
+              <div class="font-bold -mt-2">02:00 Wita</div>
             </div>
           </div>
         </div>
